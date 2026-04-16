@@ -8,6 +8,7 @@ class Product(Base):
     pid = Column(Integer, primary_key=True)
     name = Column(String(100))
     price = Column(Integer)
+    description = Column(String(100))
 
     orderitem = relationship("OrderItem", back_populates="product")
 
