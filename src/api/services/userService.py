@@ -1,3 +1,9 @@
+"""
+Business logic for user management.
+
+Handles creating users and plain-text password login. No hashing is applied
+to passwords at this time.
+"""
 from sqlalchemy.orm import Session
 from models.user import User
 from typing import Optional, List

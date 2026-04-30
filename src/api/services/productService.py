@@ -1,3 +1,8 @@
+"""
+Business logic for product management.
+
+Simple CRUD operations for the product catalogue.
+"""
 from sqlalchemy.orm import Session
 from models.product import Product
 from typing  import Optional, List

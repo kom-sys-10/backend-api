@@ -1,3 +1,4 @@
+"""SQLAlchemy model for the `orderitem` join table linking orders to products."""
 from sqlalchemy import Column, Integer, ForeignKey
 from sqlalchemy.orm import relationship
 from database.dbConnection import Base

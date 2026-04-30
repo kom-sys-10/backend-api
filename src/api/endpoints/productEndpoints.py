@@ -1,3 +1,10 @@
+"""
+Product endpoints — /api/product
+
+GET  /        - List all products.
+GET  /{pid}   - Fetch a single product by ID.
+POST /        - Create a new product.
+"""
 from fastapi import APIRouter, Depends, Response
 from services.productService import ProductService
 from fastapi.responses import JSONResponse

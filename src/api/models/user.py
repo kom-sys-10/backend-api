@@ -1,3 +1,4 @@
+"""SQLAlchemy model for the `users` table."""
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 from database.dbConnection import Base

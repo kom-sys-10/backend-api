@@ -1,3 +1,11 @@
+"""
+User endpoints — /api/user
+
+GET  /        - List all users.
+GET  /{uid}   - Fetch a single user by ID.
+POST /        - Create a new user.
+POST /login   - Authenticate with name and password.
+"""
 from fastapi import APIRouter, Depends, Response
 from services.userService import UserService
 from fastapi.responses import JSONResponse
